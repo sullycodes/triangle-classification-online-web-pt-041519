@@ -1,9 +1,10 @@
 class Triangle
 
-attr_accessor :equi
-
-def initialize()
-end
+  attr_accessor :equilateral, :isosceles, :scalene
+  
+  
+  def initialize()
+  end
 
 
 end
