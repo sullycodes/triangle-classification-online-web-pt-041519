@@ -18,7 +18,8 @@ class Triangle
       @side1 != @side2 && @side2 != @side3 && @side1 != @side3
       :scalene
     elsif 
-      @sides.any? { |e| 
+      @sides.any? { |e| e == 0 }
+      puts "dont exist bro!"
     else
       :isosceles
     end
