@@ -1,6 +1,6 @@
 class Triangle
 
-attr_accessor :name
+attr_accessor :equi
 
 def initialize()
 end
