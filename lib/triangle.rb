@@ -18,7 +18,6 @@ class Triangle
         @side1 + @side2 <= @side3 || @side2 + @side3 <= @side1 || @side1 + @side3 <= @side2
       begin
         raise TriangleError
-      # rescue TriangleError => error
         puts error.message
       end
     elsif @side1 == @side2 && @side2 == @side3
